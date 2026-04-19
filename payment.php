@@ -342,7 +342,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="price-highlight">
                     <div class="amount">$<?php echo number_format($event['price'], 2); ?></div>
-                    <div>Total Amount</div>
+                    <div>Total Amounts</div>
                 </div>
             </div>
 
