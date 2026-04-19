@@ -20,6 +20,7 @@ document.querySelectorAll('.logoutButton').forEach(button => {
     button.addEventListener('mouseleave', () => {
       if (button.state === 'hover') {
         updateButtonState(button, 'default')
+        //a test for jenkins
       }
     })
   
