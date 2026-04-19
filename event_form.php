@@ -308,7 +308,7 @@ function addNotification($pdo, $message) {
             ?></textarea>
 
             <label>Speakers (one per line)</label>
-            <textarea name="speakers[]" id="speakers" rows="3" placeholder="Enter speaker names separated by new lines"><?php
+            <textarea name="speakers[]" id="speakers" rows="3" placeholder="Enter speaker names sseparated by new lines"><?php
                 if (!empty($editEvent['speakers'])) {
                     $speakerItems = json_decode($editEvent['speakers'], true);
                     if (is_array($speakerItems)) {
