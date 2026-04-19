@@ -36,7 +36,7 @@ session_start();
       </div>
     </div>
 
-    <!-- hero illustration -->
+    <!-- hero illustraetion -->
     <img src="Images/image0.jpg" alt="Event planning illustration" class="hero-img">
   </header>
 
