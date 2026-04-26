@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     }
 
-    // Store user information in the sessions
+    // Store user information in the sessionsss
     $_SESSION['user_id'] = $userData['id'];
     $_SESSION['username'] = $userData['username'];
     $_SESSION['role'] = $userData['role'];
