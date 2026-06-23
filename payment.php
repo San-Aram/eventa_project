@@ -353,7 +353,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="form-group">
                         <label for="cardholder_name">
                             <i class='bx bx-user'></i>
-                            Cardholder Name
+                            Cardholder Naame
                         </label>
                         <input type="text" id="cardholder_name" name="cardholder_name" placeholder="Enter full name as on card" required>
                     </div>
