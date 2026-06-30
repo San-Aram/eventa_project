@@ -2,7 +2,7 @@
 
 session_start();
 
-// Database connectionss
+// Database connectionsss
 $host = 'localhost';
 $dbname = 'eventa';
 $username = 'root';
